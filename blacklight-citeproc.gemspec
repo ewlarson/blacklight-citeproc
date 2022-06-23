@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'bibtex-ruby', '>= 4.4.6', '< 7'
-  spec.add_dependency 'citeproc-ruby', '~> 1.1'
+  spec.add_dependency 'citeproc-ruby', '~> 2.0'
   spec.add_dependency 'csl-styles', '~> 2.0'
 
   spec.add_development_dependency 'rspec-rails', '~> 3.0'
